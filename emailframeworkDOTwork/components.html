@@ -1,0 +1,61 @@
+<!-- Components
+Common components you'll need when coding HTML emails
+Content block
+There may be some cases where you want to add a further table to your grid in this email framework this is called a content block (see below) you add the content block inside your tds   in your grid. To get padding on the top and bottom simply add a spacer to the top and bottom of your wrapper. Spacing example code can be found in the next steps below. -->
+
+<table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr>
+    <td align="center" valign="top">
+      <!-- Content -->
+    </td>
+  </tr>
+</table>
+
+<!-- Notes:
+● Simply add your elements (Eg. h1 tag) where it says content.
+
+● You may only need a content block in certain situations. You can rely on the grid alone to house your content.
+
+
+
+Content row
+Within a content block you can add as many content rows as you require. To add another row to your content block simply add the following code under your closing tr   tag in your content block. This can be used to create titles, paragraphs, buttons and much more. -->
+
+<tr>
+  <td align="center" valign="top">
+    
+  </td>
+</tr>   
+
+<!-- Alignment
+To align your content you will need to add align="left" , align="right" or align="center" to your containing td
+Spacing
+When stacking our titles, paragraphs and buttons like this we may need some spacing. To do this simply add the following row where you need your spacing. We add this in the same way as above. Making sure its added after the closing tr   tag. -->
+
+<tr>
+  <td height="10" style="font-size:10px; line-height:10px;">&nbsp;</td>
+</tr>
+
+<!-- Please Note :
+Outlook(2013) will sometimes add extra spacing to your spacers. To stop this from happening you will need to add & nbsp; between the td's.
+
+
+Links
+You can add links to your text by wrapping your text in an a href=""   tag. You will also need to add style="" tag to your a a href=""   tag like so. -->
+
+<a href="#" target="_blank" style="color:#66cccc; text-decoration:underline;">Link</a>
+
+<!-- Images
+By using the following HTML below you will avoid various common display issues. Make sure that the containing td   is stripped of font-size & line-height inlining styling, as this will effect how your image is rendered. -->
+
+<img src="" width="" height="" style="margin:0; padding:0; border:none; display:block;" border="0" alt="" />
+
+<!-- 
+Supported Clients
+Thoroughly tested using Litmus.com
+This email framework is supported on over 60+ email clients. -->
+
+
+
+
+

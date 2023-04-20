@@ -1,0 +1,5 @@
+Write basic announcement and grid 
+
+Giving sections for each.
+
+Use the given 'framework' and make it ours.

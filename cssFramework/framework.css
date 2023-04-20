@@ -1,0 +1,86 @@
+/* Normalize styles for consistent rendering across email clients */
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Set default text color */
+body {
+  color: #333333;
+}
+
+/* Set default link color */
+a {
+  color: #0077cc;
+}
+
+/* Remove default underlines from links */
+a:link,
+a:visited,
+a:hover,
+a:active {
+  text-decoration: none;
+}
+
+/* Center content */
+.center {
+  text-align: center;
+}
+
+/* Set max width for email content */
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* Set styles for headings */
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-weight: bold;
+  line-height: 1.2;
+}
+
+/* Set styles for paragraphs */
+p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+/* Set styles for images */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+/* Set styles for buttons */
+.btn {
+  display: inline-block;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: #0077cc;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+/* Set hover styles for buttons */
+.btn:hover {
+  background-color: #005ea6;
+}
+
+/* Set responsive styles for mobile devices */
+@media only screen and (max-width: 600px) {
+  /* Set max width for email content */
+  .container {
+    max-width: 100%;
+    padding: 0 10px;
+  }
+}
